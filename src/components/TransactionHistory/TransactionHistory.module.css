@@ -1,0 +1,32 @@
+.container {
+  margin: 0 auto;
+  width: 540px;
+}
+
+.tableTransaction {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+th,
+td {
+  width: calc(100% / 3);
+  border: 2px solid black;
+}
+
+.tableHead {
+  background-color: #1b1b1b;
+  color: #e8e8e8;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #e8e8e8;
+}
+
+td:first-child {
+  padding-left: 50px;
+  text-transform: capitalize;
+  text-align: left;
+}

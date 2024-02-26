@@ -1,10 +1,11 @@
-export const TransactionHistoryItem = ({ data: { type, amount, currency } }) => {
-    console.log(type)
+const TransactionHistoryItem = ({ data: { type, amount, currency } }) => {
     return (
         <>
-            <th>{type}</th>
-            <th>{amount}</th>
-            <th>{currency}</th>
+            <td>{type}</td>
+            <td>{amount}</td>
+            <td>{currency}</td>
         </>
     )
-}
+};
+
+export default TransactionHistoryItem;
